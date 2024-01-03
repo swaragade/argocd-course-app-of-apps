@@ -6,7 +6,7 @@ metadata:
   labels:
     ed: subed1
   annotations:
-    argoproj.io/sync-wave: "2"
+    argoproj.io/sync-wave: "1"
     test: 'test'
 spec: 
   destination:

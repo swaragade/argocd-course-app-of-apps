@@ -28,6 +28,6 @@ spec:
     # automated:
     #   allowEmpty: true
     #   selfHeal: true
-    syncOptions:
-    - allowEmpty=true
-    - CreateNamespace=true
+    # syncOptions:
+    # - allowEmpty=true
+    # - CreateNamespace=true

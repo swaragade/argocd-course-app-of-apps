@@ -5,6 +5,7 @@ metadata:
   namespace: argocd
   labels:
     ed: subed1
+    name: app1
   annotations:
     argocd.argoproj.io/hook: Sync
     argocd.argoproj.io/sync-wave: "2"

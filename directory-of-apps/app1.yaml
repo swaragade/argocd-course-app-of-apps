@@ -19,5 +19,7 @@ spec:
     repoURL: "https://github.com/swaragade/argocd-example-apps.git"
     targetRevision: master
   syncPolicy:
+    automated:
+      allowEmpty: true
     syncOptions:
       - CreateNamespace=true

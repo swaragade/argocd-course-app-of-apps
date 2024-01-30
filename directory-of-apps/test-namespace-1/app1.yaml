@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata: 
   name: app1
-  namespace: argocd
+  namespace: test-namespace-1
   labels:
     ed: subed1
     name: app1

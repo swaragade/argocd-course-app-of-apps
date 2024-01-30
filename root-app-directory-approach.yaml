@@ -20,14 +20,14 @@ spec:
   project: default
   source:
     path: directory-of-apps
-    repoURL: https://github.com/mabusaa/argocd-course-app-of-apps.git
+    repoURL: https://github.com/swaragade/argocd-course-app-of-apps.git
     targetRevision: main
     directory:
       recurse: true
   syncPolicy:
-    automated:
-      allowEmpty: true
-      selfHeal: true
+    # automated:
+    #   allowEmpty: true
+    #   selfHeal: true
     syncOptions:
     - allowEmpty=true
     - CreateNamespace=true

@@ -24,7 +24,7 @@ spec:
     targetRevision: main
     directory:
       recurse: true
-  syncPolicy:
+  # syncPolicy:
     # automated:
     #   allowEmpty: true
     #   selfHeal: true
